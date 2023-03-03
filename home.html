@@ -8,47 +8,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-<style>
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
-body {font-family: "Open Sans";
-background-image: url('images/bgbig.jpg');}
-.w3-text-white{
-    font-size: 4vw;
 
-  }
-  .second{
-    font-size: 6vw;
-  }
-  #high{
-      display: flex; flex-direction: row; justify-content: space-between;
-     /* height: fit-content; */
-    }
-    .games{
-      width: 400px;
-      height: 400px;
-    }
+<link rel="stylesheet" href="css/homePageStyle.css">
 
-@media only screen and (max-width: 600px) {
-  .second{
-    font-size: 6vw;
-
-  }
-  
-    /* display: flex; */
-    #high{
-      flex-direction: column;
-      justify-content: space-around;
-     /* height: fit-content; */
-    }
-    .games{
-      width: 100px;
-      height: 100px;
-    }
-   
-  
-  
-}
-</style>
 </head>
 <!-- <body class="w3-light-grey"> -->
     <body>
@@ -65,7 +27,7 @@ background-image: url('images/bgbig.jpg');}
   <a href="#" class="w3-bar-item w3-button"><i class='fab fa-discord'></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fab fa-twitter"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fab fa-linkedin"></i></a>
-  <a href="index.html" class="w3-bar-item w3-button" style="margin-left: 20px; background-color: red;">Back</a>
+  <a href="index.html" class="w3-bar-item w3-button" style="margin-left: 20px; margin-right: 1%; background-color: red;">Back</a>
   <!-- <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a> -->
 
 
@@ -79,7 +41,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-white">
     <h1 class="w3-xxxlarge"><b>EGGERS COMMUNITY</b></h1>
-    <h6 class="welcometext">Welcome to the world of <span class="w3-tag">egger's</span></h6>
+    <h6 class="welcometext">Welcome to the world of <span class="w3-tag">Millionaire's Egg</span></h6>
   </header>
 
   <!-- Image header -->
@@ -106,17 +68,20 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
 
         <div class="w3-justify">
-          <img src="images/banner.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
-          <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
-            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <img src="images/banner.jpg" alt="Girl Hat" style="width:70%;margin: auto;">
+          <p><strong>Millionaire's Egg</strong> is a unique and innovative platform that provides a seamless and secure way to buy, sell, and trade non-fungible tokens (NFTs) on the blockchain. Our platform is designed to cater to the growing demand for digital collectibles, art, and other virtual assets that are revolutionizing the way we think about ownership and value.
+           <br /> At Millionaire's Egg, we believe in empowering artists, creators, and collectors by providing them with a platform that allows them to showcase their work, connect with like-minded individuals, and monetize their creations in a fair and transparent manner. Our mission is to create a thriving ecosystem where NFT enthusiasts can explore, discover, and invest in the latest digital art, music, games, and more.
+           <br /> Our team consists of experienced professionals with a deep understanding of blockchain technology and its potential to transform the art and collectibles industry. We are committed to providing our users with a user-friendly and intuitive platform that makes it easy to navigate and find the NFTs that interest them the most.
+
+           <br /> Whether you are an artist looking to showcase your work, a collector looking to expand your collection, or a trader looking to invest in the latest digital assets, Millionaire's Egg NFT is the perfect platform for you. Join us today and be a part of the NFT revolution!
+          </p>
           <!-- <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p> -->
           <p class="w3-left"><button class="w3-button w3-white" onclick="myFunction('demo1')" id="myBtn"><b>Roadmap  </b></button></p>
           <p class="w3-clear"></p>
           <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
             <hr>
               <div class="w3-col l2 m3">
-                <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+                <img src="" style="width:90px;">
               </div>
               <div class="w3-col l10 m9">
                 <h4>some <span class="w3-opacity w3-medium">text here</span></h4>
@@ -136,47 +101,58 @@ and is wrapped around the whole page content, except for the footer in this exam
 
         <div class="w3-justify">
           <img src="images/egg4.jpeg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
-          <p><strong>Hats!</strong> The trend this summer is hats for men!</p>
-          <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
-            mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p>
+            <q><em><strong>NFTs !</strong> Art is not what you see, but what you make others see....</p></em>
+              </q>
+            
+          <p>Our platform is dedicated to providing a unique and engaging experience for our users, whether they are artists looking to showcase their work, collectors searching for the next great NFT, or gamers seeking to connect with like-minded individuals.
+            <br />At Digital Art NFT and Gaming, we believe that the intersection of art and technology is an exciting space that is ripe with opportunity. We strive to be at the forefront of this movement by providing a comprehensive platform that allows creators and collectors to come together and engage in meaningful ways.
+            <br />Our team is comprised of passionate individuals who are dedicated to supporting and promoting the digital art and NFT communities. We are constantly exploring new ways to enhance the user experience, and we welcome your feedback and suggestions.
+            <br />Thank you for choosing Digital Art NFT and Gaming as your destination for all things digital art, NFTs, and gaming. We look forward to connecting with you!
+          </p>
           <!-- <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p> -->
           <p class="w3-left"><button class="w3-button w3-white" onclick="myFunction('demo2')"><b>Click to see  </b> </button></p>
           <p class="w3-clear"></p>
           
           <!-- Example of comment field -->
           <div id="demo2" style="display:none">
-            <div class="high" id="high">
-              <hr>
-              <div class="w3-col l2 m4">
-                <img src="images/banner.jpg" style="width:200px; height: 200px;">
+            <div class="high" id="high" style="margin-left: 0px;">
+              <!-- <hr> -->
+              <div class="w3-col l4 m4">
+                <img src="images/banner.jpg" style="width:100%;">
                 <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
               </div>
-              <div class="w3-col l2 m4">
-                <img src="images/banner.jpg" style="width:200px; height: 200px;">
+              <div class="w3-col l4 m4">
+                <img src="images/banner.jpg" style="width:100%;">
                 <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
               </div>
-              <div class="w3-col l2 m4">
-                <img src="images/banner.jpg" style="width:200px; height: 200px;">
+              <div class="w3-col l4 m4">
+                <img src="images/banner.jpg" style="width:100%;">
                 <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
               </div>
-              <div class="w3-col l2 m4">
-                <img src="images/banner.jpg" style="width:200px; height: 200px;">
-                <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-              </div>
+              
+              
               <!-- <div class="w3-col l10 m9">
                 <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
                 <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
               </div> -->
             </div>
-            <!-- <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl.jpg" style="width:90px;">
+            <div class="high" id="high">
+              <!-- <hr> -->
+              <div class="w3-col l4 m4">
+                <img src="images/banner.jpg" style="width:100%;">
+                <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
               </div>
-              <div class="w3-col l10 m9">
-                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
-                <p>Love hats!!</p>
+              <div class="w3-col l4 m4">
+                <img src="images/banner.jpg" style="width:100%;">
+                <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
               </div>
-            </div> -->
+              <div class="w3-col l4 m4">
+                <img src="images/banner.jpg" style="width:100%;">
+                <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+              </div>
+            </div>
+            
           </div>
         </div>
         
@@ -186,7 +162,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-black w3-margin w3-padding-large">
         <div class="w3-center">
           <h3>GAMES</h3>
-          <h5>Game description, <span class="w3-opacity">Coming soon</span></h5>
+          <h5><span class="w3-opacity">Coming soon</span></h5>
         </div>
 
         <div class="w3-justify">
@@ -237,33 +213,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                 <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
             </div>
-            <!-- <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m8">
-                <img src="images/shark1.jpeg" style="width:120px; height: 120px;">
-              </div>
-              <div class="w3-col l10 m4">
-                <h4>Game1 <span class="w3-opacity w3-medium">Coming soon</span></h4>
-                <p>That was a great runway show! Thanks for everything.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m8">
-                <img src="images/egg5.jpeg" style="width:120px; height: 120px;">
-              </div>
-              <div class="w3-col l10 m4">
-                <h4>Game2 <span class="w3-opacity w3-medium">Coming soon</span></h4>
-                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m8">
-                <img src="images/soldieredited.jpg" style="width:120px; height: 120px;">
-              </div>
-              <div class="w3-col l10 m4">
-                <h4>Game3 <span class="w3-opacity w3-medium">Coming soon</span></h4>
-                <p>Cant wait for the runway to start!</p>
-              </div>
-            </div> -->
+           
           </div>
         </div>
       </div>
@@ -275,7 +225,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-col l4">
       <!-- About Card -->
       <div class="w3-white w3-margin">
-        <img src="/w3images/avatar_girl2.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <img src="" alt="Jane" style="width:100%" class="w3-grayscale">
         <div class="w3-container w3-black">
           <h4>My Name</h4>
           <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
@@ -290,25 +240,25 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
         <ul class="w3-ul w3-hoverable w3-white">
           <li class="w3-padding-16">
-            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <img src="" alt="Image" class="w3-left w3-margin-right" style="width:50px">
             <span class="w3-large">Fancy</span>
             <br>
             <span>Sed mattis nunc</span>
           </li>
           <li class="w3-padding-16">
-            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <img src="" alt="Image" class="w3-left w3-margin-right" style="width:50px">
             <span class="w3-large">rugged</span>
             <br>
             <span>Praes tinci sed</span>
           </li>
           <li class="w3-padding-16">
-            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <img src="" alt="Image" class="w3-left w3-margin-right" style="width:50px">
             <span class="w3-large">entry</span>
             <br>
             <span>Ultricies congue</span>
           </li>
           <li class="w3-padding-16">
-            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <img src="" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
             <span class="w3-large">go on</span>
             <br>
             <span>Lorem ipsum dipsum</span>
