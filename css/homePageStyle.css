@@ -1,0 +1,102 @@
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans";
+background-image: url('/images/bgbig.jpg');}
+.w3-text-white{
+    font-size: 4vw;
+
+  }
+  .second{
+    font-size: 6vw;
+  }
+  #high{
+      display: flex; flex-direction: row; justify-content: space-between;
+     /* height: fit-content; */
+    }
+    .games{
+      width: 400px;
+      height: 400px;
+    }
+
+#more{
+  display: block;
+
+}   
+#readmorebtn{
+  display: none;
+}
+#dots{
+ display: none;
+} 
+#more2{
+  display: block;
+
+}   
+#readmorebtn2{
+  display: none;
+}
+#dots2{
+ display: none;
+} 
+#more3{
+  display: block;
+
+}   
+#readmorebtn3{
+  display: none;
+}
+#dots3{
+ display: none;
+} 
+
+.followicons{
+  margin: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .second{
+    font-size: 6vw;
+
+  }
+  
+  /* display: flex; */
+  #high{
+    flex-direction: column;
+    justify-content: space-around;
+    /* height: fit-content; */
+  }
+  .games{
+    width: 100px;
+    height: 100px;
+  }
+  #more{
+    display: none;
+  
+  }   
+  #readmorebtn{
+    display: block;
+  } 
+  #dots{
+    display: block;
+   } 
+   #more2{
+    display: none;
+  
+  }   
+  #readmorebtn2{
+    display: block;
+  } 
+  #dots2{
+    display: block;
+   }
+   #more3{
+    display: none;
+  
+  }   
+  #readmorebtn3{
+    display: block;
+  } 
+  #dots3{
+    display: block;
+   } 
+  
+}
