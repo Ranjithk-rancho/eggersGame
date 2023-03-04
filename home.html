@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
 <link rel="stylesheet" href="css/homePageStyle.css">
+<link rel="stylesheet" href="css/footerStyle.css">
 
 </head>
 <!-- <body class="w3-light-grey"> -->
@@ -19,14 +20,15 @@
 <!-- Navigation bar with social media icons -->
 <div class="w3-bar w3-black">
     
-  <a href="#" class="w3-bar-item w3-button">Logo</a>
+  <a href="#" class="w3-bar-item w3-button">Millionaire's Egg</a>
   <div style="display: flex; justify-content: end;">
-    <a href="#" class="w3-bar-item w3-button"><i class="fab fa-facebook"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-instagram"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-snapchat"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class='fab fa-discord'></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-twitter"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-linkedin"></i></a>
+    <!-- <a href="#" class="w3-bar-item w3-button"><i class="fab fa-facebook"></i></a> -->
+  <a href="https://www.instagram.com/aptosegger/" class="w3-bar-item w3-button"><i class="fab fa-instagram"></i></a>
+  <!-- <a href="#" class="w3-bar-item w3-button"><i class="fab fa-snapchat"></i></a> -->
+  <a href="https://discord.gg/yZmb58srGR" class="w3-bar-item w3-button"><i class='fab fa-discord'></i></a>
+  <a href="https://twitter.com/AptosEggers" class="w3-bar-item w3-button"><i class="fab fa-twitter"></i></a>
+  <a href="https://t.me/+aKR_Amdto2FkOTg1" class="w3-bar-item w3-button"><i class="fab fa-telegram"></i></a>
+  <!-- <a href="#" class="w3-bar-item w3-button"><i class="fab fa-linkedin"></i></a> -->
   <a href="index.html" class="w3-bar-item w3-button" style="margin-left: 20px; margin-right: 1%; background-color: red;">Back</a>
   <!-- <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a> -->
 
@@ -70,11 +72,18 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-justify">
           <img src="images/banner.jpg" alt="Girl Hat" style="width:70%;margin: auto;">
           <p><strong>Millionaire's Egg</strong> is a unique and innovative platform that provides a seamless and secure way to buy, sell, and trade non-fungible tokens (NFTs) on the blockchain. Our platform is designed to cater to the growing demand for digital collectibles, art, and other virtual assets that are revolutionizing the way we think about ownership and value.
-           <br /> At Millionaire's Egg, we believe in empowering artists, creators, and collectors by providing them with a platform that allows them to showcase their work, connect with like-minded individuals, and monetize their creations in a fair and transparent manner. Our mission is to create a thriving ecosystem where NFT enthusiasts can explore, discover, and invest in the latest digital art, music, games, and more.
-           <br /> Our team consists of experienced professionals with a deep understanding of blockchain technology and its potential to transform the art and collectibles industry. We are committed to providing our users with a user-friendly and intuitive platform that makes it easy to navigate and find the NFTs that interest them the most.
-
-           <br /> Whether you are an artist looking to showcase your work, a collector looking to expand your collection, or a trader looking to invest in the latest digital assets, Millionaire's Egg NFT is the perfect platform for you. Join us today and be a part of the NFT revolution!
+            <span id="dots">.....</span>
+           
+           
+           <span id="more"><br />At Millionaire's Egg, we believe in empowering artists, creators, and collectors by providing them with a platform that allows them to showcase their work, connect with like-minded individuals, and monetize their creations in a fair and transparent manner. Our mission is to create a thriving ecosystem where NFT enthusiasts can explore, discover, and invest in the latest digital art, music, games, and more.
+            <br /> Our team consists of experienced professionals with a deep understanding of blockchain technology and its potential to transform the art and collectibles industry. We are committed to providing our users with a user-friendly and intuitive platform that makes it easy to navigate and find the NFTs that interest them the most.
+ 
+            <br /> Whether you are an artist looking to showcase your work, a collector looking to expand your collection, or a trader looking to invest in the latest digital assets, Millionaire's Egg NFT is the perfect platform for you. Join us today and be a part of the NFT revolution!
+          </span> 
           </p>
+          <!-- <input type="button" onclick="morefunc()" placeholder="Read more"/> -->
+          <button id="readmorebtn" onclick="morefunc1()">Read more</button>
+          <br /><br />
           <!-- <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p> -->
           <p class="w3-left"><button class="w3-button w3-white" onclick="myFunction('demo1')" id="myBtn"><b>Roadmap  </b></button></p>
           <p class="w3-clear"></p>
@@ -106,10 +115,14 @@ and is wrapped around the whole page content, except for the footer in this exam
               </q>
             
           <p>Our platform is dedicated to providing a unique and engaging experience for our users, whether they are artists looking to showcase their work, collectors searching for the next great NFT, or gamers seeking to connect with like-minded individuals.
-            <br />At Digital Art NFT and Gaming, we believe that the intersection of art and technology is an exciting space that is ripe with opportunity. We strive to be at the forefront of this movement by providing a comprehensive platform that allows creators and collectors to come together and engage in meaningful ways.
-            <br />Our team is comprised of passionate individuals who are dedicated to supporting and promoting the digital art and NFT communities. We are constantly exploring new ways to enhance the user experience, and we welcome your feedback and suggestions.
-            <br />Thank you for choosing Digital Art NFT and Gaming as your destination for all things digital art, NFTs, and gaming. We look forward to connecting with you!
+            <span id="dots2">.....</span>
+            <span id="more2"><br />At Digital Art NFT and Gaming, we believe that the intersection of art and technology is an exciting space that is ripe with opportunity. We strive to be at the forefront of this movement by providing a comprehensive platform that allows creators and collectors to come together and engage in meaningful ways.
+              <br />Our team is comprised of passionate individuals who are dedicated to supporting and promoting the digital art and NFT communities. We are constantly exploring new ways to enhance the user experience, and we welcome your feedback and suggestions.
+              <br />Thank you for choosing Digital Art NFT and Gaming as your destination for all things digital art, NFTs, and gaming. We look forward to connecting with you!
+            </span>
           </p>
+          <button id="readmorebtn2" onclick="morefunc2()">Read more</button>
+          <br /><br />
           <!-- <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p> -->
           <p class="w3-left"><button class="w3-button w3-white" onclick="myFunction('demo2')"><b>Click to see  </b> </button></p>
           <p class="w3-clear"></p>
@@ -169,7 +182,10 @@ and is wrapped around the whole page content, except for the footer in this exam
           <img src="images/editedshark.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
           
           <p><strong>Dont miss out !</strong> on the ultimate gaming experience! Our new games are coming soon, featuring immersive gameplay, stunning graphics, and unique NFT collectibles. Join our community and be the first to experience the future of gaming. Stay tuned for more updates.</p>
-          <p>Get ready to embark on an epic adventure with our upcoming NFT gaming collection. Experience a new level of gameplay as you collect and trade unique NFTs, each with its own special powers and abilities. With stunning graphics, engaging gameplay, and a thriving community, our NFT gaming collection is the ultimate destination for gamers and collectors alike. Stay tuned for more updates on our exciting launch.</p>
+          <p>Get ready to embark <span id="dots3">.....</span><span id="more3"> on an epic adventure with our upcoming NFT gaming collection. Experience a new level of gameplay as you collect and trade unique NFTs, each with its own special powers and abilities. With stunning graphics, engaging gameplay, and a thriving community, our NFT gaming collection is the ultimate destination for gamers and collectors alike. Stay tuned for more updates on our exciting launch.</span>
+          </p>
+          <button id="readmorebtn3" onclick="morefunc3()">Read more</button>
+          <br /><br />
           <!-- <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p> -->
           <p class="w3-left"><button class="w3-button w3-white" onclick="myFunction('demo3')"><b>See Upcoming games  </b></button></p>
           <p class="w3-clear"></p>
@@ -183,8 +199,11 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
                   </div>
                   <div class="col-lg-6 col-xs-12" style="margin-left: 2%;">
-                    <h4>Game1 <span class="w3-opacity w3-medium">Coming soon</span></h4>
-                    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h4>Millionaire's Shark Game <span class="w3-opacity w3-medium">Coming soon</span></h4>
+                    <p>
+                      "Get ready to dive into the world of Shark Game NFTs 🦈🎮🌊 Experience the thrill of the hunt as you collect, trade, and battle your way to the top of the food chain. Join the frenzy and own a piece of this epic adventure today! #SharkGameNFT #crypto #gaming #NFTcollectors"
+
+                    </p>
                   </div>
             </div>
             <br />
@@ -195,8 +214,11 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
                 </div>
                 <div class="col-lg-6" style="margin-left: 2%;">
-                    <h4>Game2 <span class="w3-opacity w3-medium">Coming soon</span></h4>
-                    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h4>Millionaire Eggers Game <span class="w3-opacity w3-medium">Coming soon</span></h4>
+                    <p>
+                      "Crack open a world of adventure with Egg Character Game NFTs 🥚🎮🌟 Collect, trade, and battle with adorable egg-themed characters that are cracking fun for the whole family. Get in on the egg-citement and own your very own Egg Character NFT today! #EggCharacterGame #crypto #gaming #NFTcollectors"
+
+                    </p>
               
                 </div>
             </div>
@@ -208,8 +230,11 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
                 </div>
                 <div class="col-lg-6" style="margin-left: 2%;">
-                <h4>Game3 <span class="w3-opacity w3-medium">Coming soon</span></h4>
-                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <h4>Millionaire's Fighter's Game <span class="w3-opacity w3-medium">Coming soon</span></h4>
+                <p>
+                  "Crack open a world of adventure with Egg Character Game NFTs 🥚🎮🌟 Collect, trade, and battle with adorable egg-themed characters that are cracking fun for the whole family. Get in on the egg-citement and own your very own Egg Character NFT today! #EggCharacterGame #crypto #gaming #NFTcollectors"
+
+                </p>
                 </div>
             </div>
            
@@ -223,14 +248,14 @@ and is wrapped around the whole page content, except for the footer in this exam
     <!-- About/Information menu -->
     <div class="w3-col l4">
       <!-- About Card -->
-      <div class="w3-white w3-margin">
+      <!-- <div class="w3-white w3-margin">
         <img src="" alt="Jane" style="width:100%" class="w3-grayscale">
         <div class="w3-container w3-black">
           <h4>My Name</h4>
           <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
         </div>
       </div>
-      <hr>
+      <hr> -->
 
       <!-- Posts -->
       <div class="w3-white w3-margin">
@@ -238,30 +263,39 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h4>Popular NFT's</h4>
         </div>
         <ul class="w3-ul w3-hoverable w3-white">
-          <li class="w3-padding-16">
-            <img src="" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Fancy</span>
-            <br>
-            <span>Sed mattis nunc</span>
-          </li>
-          <li class="w3-padding-16">
-            <img src="" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">rugged</span>
-            <br>
-            <span>Praes tinci sed</span>
-          </li>
-          <li class="w3-padding-16">
-            <img src="" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">entry</span>
-            <br>
-            <span>Ultricies congue</span>
-          </li>
-          <li class="w3-padding-16">
-            <img src="" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
-            <span class="w3-large">go on</span>
-            <br>
-            <span>Lorem ipsum dipsum</span>
-          </li>
+          <a href="https://opensea.io/collection/mutant-ape-yacht-club">
+            <li class="w3-padding-16">
+              <img src="images/apeyatch.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Mutant Ape Yacht Club</span>
+              <br>
+              
+              <span>By YugaLabs</span>
+            </li>
+        </a>
+          <a href="https://souffl3.com/collection/FD8LdMwUZ5WD3MBbko7QR7i8ddsXiX7R4jqPVrobyJHL85MHT9Qti4YVKm4">
+            <li class="w3-padding-16">
+              <img src="images/Aptomingos.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Aptomingos</span>
+              <br>
+              <span>By 0xc0...60a8</span>
+            </li>
+          </a>
+          <a href="https://www.topaz.so/collection/Aptos-Dragons-5ca9e4b280">
+            <li class="w3-padding-16">
+              <img src="images/Aptos Dragons.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Aptos Dragons</span>
+              <br>
+              <span>Created by 0x5ca9...88ddda</span>
+            </li>
+          </a>
+          <a href="">
+            <li class="w3-padding-16">
+              <img src="" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+              <span class="w3-large">Millionaire's Egg</span>
+              <br>
+              <span>coming soon</span>
+            </li>
+          </a>
         </ul>
       </div>
       <hr>
@@ -296,6 +330,17 @@ and is wrapped around the whole page content, except for the footer in this exam
       </div>
       <hr>
 
+      <!-- Roadmap -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Roadmap</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>roadmap</p>
+        </div>
+      </div>
+      <!-- <hr> -->
+
       <!-- Inspiration -->
       <!-- <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
@@ -318,13 +363,19 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-container w3-padding w3-black">
           <h4>Follow Me</h4>
         </div>
-        <div class="w3-container w3-xlarge w3-padding">
-          <i class="fab fa-facebook w3-hover-opacity"></i>
-          <i class="fab fa-instagram w3-hover-opacity"></i>
-          <i class="fab fa-snapchat w3-hover-opacity"></i>
-          <i class="fab fa-pinterest-p w3-hover-opacity"></i>
-          <i class="fab fa-twitter w3-hover-opacity"></i>
-          <i class="fab fa-linkedin w3-hover-opacity"></i>
+        <div class="w3-container w3-xlarge w3-padding" style="display: flex; justify-content: center;">
+          <!-- <i class="fab fa-facebook w3-hover-opacity"></i> -->
+          <a class="followicons" href="https://www.instagram.com/aptosegger/"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+          <a class="followicons" href="https://twitter.com/AptosEggers"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+          <a class="followicons" href="https://discord.gg/yZmb58srGR"><i class='fab fa-discord w3-hover-opacity'></i></a>
+          <a class="followicons" href="https://t.me/+aKR_Amdto2FkOTg1"><i class="fab fa-telegram w3-hover-opacity"></i></a>
+          <!-- <i class="fab fa-snapchat w3-hover-opacity"></i> -->
+          <!-- <i class="fab fa-pinterest-p w3-hover-opacity"></i> -->
+          
+          
+          <!-- <i class="fab fa-twitter w3-hover-opacity"></i> -->
+          
+          <!-- <i class="fab fa-linkedin w3-hover-opacity"></i> -->
         </div>
       </div> 
       <hr>
@@ -367,6 +418,48 @@ and is wrapped around the whole page content, except for the footer in this exam
 <footer class="w3-container w3-dark-grey" style="padding:32px">
   <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom" style="float: right;"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <p>Copyrights <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Millionaire's Egg</a></p>
+  <br><br><br>
+ <!-- FOOTER -->
+ <!-- <footer class="w-100 py-4 flex-shrink-0">
+  <div class="container py-4">
+      <div class="row gy-4 gx-5">
+          <div class="col-lg-4 col-md-6">
+              <h5 class="h1 text-white">FB.</h5>
+              <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Quick links</h5>
+              <ul class="list-unstyled text-muted">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Get started</a></li>
+                  <li><a href="#">FAQ</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Quick links</h5>
+              <ul class="list-unstyled text-muted">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Get started</a></li>
+                  <li><a href="#">FAQ</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+              <h5 class="text-white mb-3">Newsletter</h5>
+              <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <form action="#">
+                  <div class="input-group mb-3">
+                      <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                      <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</footer> -->
+
 </footer>
 
 <script>
@@ -386,6 +479,63 @@ function likeFunction(x) {
   x.innerHTML = "✓ Liked";
 }
 </script>
+
+<script>
+  function morefunc1() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("readmorebtn");
+
+    
+
+    
+    
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+    
+    
+  }
+
+  function morefunc2(){
+    var dots2 = document.getElementById("dots2");
+    var moreText2 = document.getElementById("more2");
+    var btnText2 = document.getElementById("readmorebtn2");
+
+    if (dots2.style.display === "none") {
+      dots2.style.display = "inline";
+      btnText2.innerHTML = "Read more"; 
+      moreText2.style.display = "none";
+    } else {
+      dots2.style.display = "none";
+      btnText2.innerHTML = "Read less"; 
+      moreText2.style.display = "inline";
+    }
+  }
+
+  function morefunc3(){
+    var dots3 = document.getElementById("dots3");
+    var moreText3 = document.getElementById("more3");
+    var btnText3 = document.getElementById("readmorebtn3");
+
+    if (dots3.style.display === "none") {
+      dots3.style.display = "inline";
+      btnText3.innerHTML = "Read more"; 
+      moreText3.style.display = "none";
+    } else {
+      dots3.style.display = "none";
+      btnText3.innerHTML = "Read less"; 
+      moreText3.style.display = "inline";
+    }
+
+  }
+  </script>
 
 </body>
 </html>
