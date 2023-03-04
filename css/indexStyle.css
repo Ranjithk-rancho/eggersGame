@@ -1,0 +1,54 @@
+
+body,h1 {
+    font-family: "Raleway", sans-serif;
+}
+body, html {
+    height: 100%
+}
+.bgimg {
+  background-image: url('/images/eggbanner.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.w3-display-middle{
+    width: 100%;
+}
+.w3-display-middle > h1 {
+    text-align: center;
+}
+.animate{
+    font-size: 5vw;
+    font-weight: bolder;
+}
+.animate:hover{
+    transition:  2s;
+    font-size: 8vw;
+}
+.animatebtn{
+    display: flex; 
+    margin: auto; 
+    padding: 1%; 
+    width: fit-content;
+}
+.animatebtn:hover{
+    transition:  2s;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .animate{
+        font-size: 8vw;
+        font-weight: bolder;
+    }
+    .animate:hover{
+        transition:  2s;
+        font-size: 10vw;
+    }
+    .animatebtn:hover{
+        transition:  2s;
+        font-size: 8vw;
+    }
+    
+  }

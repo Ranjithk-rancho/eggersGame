@@ -1,0 +1,37 @@
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans";
+background-image: url('/images/bgbig.jpg');}
+.w3-text-white{
+    font-size: 4vw;
+
+  }
+  .second{
+    font-size: 6vw;
+  }
+  #high{
+      display: flex; flex-direction: row; justify-content: space-between;
+     /* height: fit-content; */
+    }
+    .games{
+      width: 400px;
+      height: 400px;
+    }
+
+@media only screen and (max-width: 600px) {
+  .second{
+    font-size: 6vw;
+
+  }
+  
+    /* display: flex; */
+    #high{
+      flex-direction: column;
+      justify-content: space-around;
+     /* height: fit-content; */
+    }
+    .games{
+      width: 100px;
+      height: 100px;
+    }
+  
+}
